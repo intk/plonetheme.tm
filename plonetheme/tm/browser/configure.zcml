@@ -20,8 +20,7 @@
       directory="js"
       layer=".interfaces.IThemeSpecific"
     />
-
-
+    
     <browser:resourceDirectory
       name="plonetheme.tm.fonts"
       directory="fonts"
