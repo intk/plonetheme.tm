@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="plonetheme.tm">
+
+    <include package="z3c.jbot" file="meta.zcml" />
+
+    <browser:resourceDirectory
+      name="plonetheme.tm.css"
+      directory="css"
+      layer=".interfaces.IThemeSpecific"
+    />
+
+    <browser:resourceDirectory
+      name="plonetheme.tm.js"
+      directory="js"
+      layer=".interfaces.IThemeSpecific"
+    />
+
+
+    <browser:resourceDirectory
+      name="plonetheme.tm.fonts"
+      directory="fonts"
+      layer=".interfaces.IThemeSpecific"
+    />
+
+    <browser:jbot directory="overrides" />
+
+</configure>
