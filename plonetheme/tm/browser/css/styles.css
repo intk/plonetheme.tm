@@ -74,8 +74,7 @@
 		font-size: 1.00em;
 	}
 
-	#cart .cart-select-box,
-	#cart select {
+	#cart .cart-select-box {
 		width: 100% !important;
 	}
 
@@ -118,7 +117,7 @@
 	}
 
 	#cart select {
-		width: 110px !important;
+		width: 100% !important;
 		text-align: right;
 	}
 
@@ -170,8 +169,7 @@
 		font-size: 1.00em;
 	}
 
-	#cart .cart-select-box,
-	#cart select {
+	#cart .cart-select-box {
 		width: 100% !important;
 	}
 
@@ -233,8 +231,7 @@
 		width: 100% !important;
 	}
 
-	#cart .cart-select-box,
-	#cart select {
+	#cart .cart-select-box {
 		width: 100% !important;
 	}
 
