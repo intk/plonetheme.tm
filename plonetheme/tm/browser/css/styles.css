@@ -6,3 +6,57 @@
 .menu_wrapper {
 	background-color: #d75745;
 }
+
+body.template-cart h1.documentFirstHeading {
+    margin-bottom: 200px !important;
+}
+
+
+body.template-checkout h1.documentFirstHeading {
+    margin-bottom: 200px !important;
+}
+
+body.template-cart #portal-logo img, body.template-checkout #portal-logo img {
+    content: url('++resource++plonetheme.museumbase.css/teylers_black.png') !important;
+}
+
+#field-checkout-personal_data-phone {
+	clear: both !important;
+}
+
+#form-checkout #field-checkout-billing_address-city {
+	width: 275px;
+}
+
+#form-checkout #field-checkout-billing_address-city input,
+#field-checkout-personal_data-company input,
+#field-checkout-personal_data-phone input,
+#input-checkout-billing_address-street,
+#input-checkout-billing_address-country {
+	width: 100% !important;
+}
+
+#field-checkout-billing_address-country,
+#input-checkout-bank_selection-bank,
+#field-checkout-personal_data-company,
+#field-checkout-personal_data-phone,
+#form-checkout #field-checkout-billing_address-street {
+	width: 418px;
+}
+
+#display-checkout-payment_selection-payment {
+	display: none;
+}
+
+
+/*#cart-page-header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,rgba(215,87,69,0.8),rgba(215,87,69,0.8));
+    opacity: 0.7;
+}*/
+
