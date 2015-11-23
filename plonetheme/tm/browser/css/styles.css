@@ -195,6 +195,79 @@ p.total_price-price {
 	padding-bottom: 50px;
 }
 
+#content-core .portletHeader {
+    padding-top: 60px;
+    padding-bottom: 55px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#content-core .portletHeader h1 {
+    margin-bottom: 35px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.250em;
+    color: #999999;
+    letter-spacing: 0.05em;
+    margin: 0px;
+    line-height: 35px;
+}
+
+#content-core .portletHeader h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 3.125em;
+    color: #d75745;
+    margin: 0px;
+    line-height: 75px;
+    margin-top: 5px;
+    text-transform: none !important;
+}
+
+#content-core div.portlet {
+	background-color: inherit !important;
+}
+
+#content-core dl.portlet dt {
+	background-color: inherit !important;
+}
+
+#content-core .portletStaticText .portletHeader span {
+	font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.250em;
+    color: #999999;
+    letter-spacing: 0.05em;
+    margin: 0px;
+    line-height: 35px;
+}
+
+#content-core .portletStaticText dt.portletHeader {
+	margin-top: 0px;
+}
+
+#content-core dl.portletStaticText,
+#content-core div.portletStaticText {
+	padding-bottom: 40px;
+}
+
+#content-core div.portletStaticText {
+	padding-top: 50px;
+}
+
+#content-core .portletStaticText dd.portletItem {
+	padding-top:0px !important;
+}
+
+#content-core dt.portletHeader.titleless {
+	padding-top: 50px !important;
+	padding-bottom: 0px !important;
+}
 /*#cart-page-header:before {
     content: '';
     position: absolute;
