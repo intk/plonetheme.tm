@@ -48,6 +48,10 @@ body.template-cart #portal-logo img, body.template-checkout #portal-logo img {
 	display: none;
 }
 
+body.template-mollie_payment_success #portal-logo img {
+    content: url('++resource++plonetheme.museumbase.css/teylers_black.png') !important;
+}
+
 
 /*#cart-page-header:before {
     content: '';
