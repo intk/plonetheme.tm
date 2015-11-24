@@ -290,7 +290,7 @@ div.buyable dl.details dt.quantity {
 }
 
 div.buyable dl.details dd.quantity input {
-	height: 50px;
+	height: 40px;
 	width: 70px;
 }
 
@@ -299,33 +299,33 @@ div.buyable {
 }
 
 div.buyable a.buyable_update_cart.buy_now_item {
-	padding: 7px 18px !important;
-	line-height: 34px !important;
+	padding: 2px 12px !important;
+    line-height: 34px !important;
 }
 
 div.buyable .change {
     float: right;
     width: 20px;
-    height: 50px;
-    background-color: #ffffff;
-    margin-left: 2px;
+    height: 40px;
+    background-color: #f5f5f5;
+    margin-left: 0px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #f5f5f5;
 }
-
 
 div.buyable .change a.up {
     background-position: 0px 0px;
-    margin-bottom: 2px;
 }
-
 
 div.buyable .change a {
     display: block;
     width: 20px;
-    height: 24px;
+    height: 20px;
     text-align: center;
     text-indent: -9999px;
     background-color: #f5f5f5;
-    background: url(quantity.png) no-repeat;
+    background: url("++resource++plonetheme.tm.css/quantity.png") no-repeat;
+    border-right: 1px solid #f5f5f5;
 }
 
 div.buyable dt.vat {
@@ -334,6 +334,15 @@ div.buyable dt.vat {
     padding-top: 16px;
     color: #999999;
     font-weight: 400;
+}
+
+div.buyable .change a:hover {
+	background-color: #DDD;
+}
+
+
+div.buyable .change a.down {
+    background-position: 0px -20px;
 }
 
 #tag-checkout-billing_address-heading {
