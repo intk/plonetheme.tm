@@ -345,6 +345,10 @@ div.buyable dt.vat {
 	clear: both !important;
 }
 
+div.overlay-terms-and-condition div.pb-ajax {
+	background-color: #ffffff !important;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
