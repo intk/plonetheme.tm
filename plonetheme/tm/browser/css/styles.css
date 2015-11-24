@@ -336,6 +336,11 @@ div.buyable dt.vat {
     font-weight: 400;
 }
 
+#tag-checkout-billing_address-heading {
+	clear: both !important;
+    padding-top: 20px !important;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
