@@ -328,6 +328,14 @@ div.buyable .change a {
     background: url(quantity.png) no-repeat;
 }
 
+div.buyable dt.vat {
+	display: inline-block !important;
+    float: left;
+    padding-top: 16px;
+    color: #999999;
+    font-weight: 400;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
