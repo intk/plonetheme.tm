@@ -358,6 +358,60 @@ div.overlay-terms-and-condition div.pb-ajax {
 	background-color: #ffffff !important;
 }
 
+body.template-collection_view #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-content_view #content .documentFirstHeading {
+    background: transparent;
+    /* position: absolute; */
+    /* top: 260px; */
+    width: 100%;
+    z-index: 3;
+    padding-top: 260px !important;
+    margin-bottom: 20px !important;
+    color: #ffffff !important;
+}
+
+body.template-content_view #content .documentDescription.description, body.template-content_view #content .documentDescription {
+    /* position: absolute; */
+    /* top: 330px; */
+    width: 100%;
+    background: none !important;
+    z-index: 3 !important;
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #ffffff !important;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+body.template-content_view #content .documentFirstHeading {
+    padding-top: 100px !important;
+    padding-left: 60px !important;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+body.template-content_view #content .documentDescription.description, body.template-content_view #content .documentDescription {
+    /* margin-top: 150px; */
+    padding-left: 60px;
+}
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+body.template-content_view #content .documentFirstHeading {
+    padding-top: 100px !important;
+    padding-left: 80px;
+}
+}
+
+@media (max-width: 480px) {
+body.template-content_view #content .documentFirstHeading {
+    padding-top: 70px !important;
+    padding-left: 50px;
+}
+}
+
+a.advanced-search {
+	display: none;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
