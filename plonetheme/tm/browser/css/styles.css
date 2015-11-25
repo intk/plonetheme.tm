@@ -17,7 +17,7 @@ body.template-checkout h1.documentFirstHeading {
 }
 
 body.template-cart #portal-logo img, body.template-checkout #portal-logo img {
-    content: url('++resource++plonetheme.museumbase.css/teylers_black.png') !important;
+    
 }
 
 #field-checkout-personal_data-phone {
@@ -145,7 +145,8 @@ h2.post-cart-title {
 
 div.total-price-wrapper {
 	padding-top:50px;
-	text-align:left;
+	text-align:right;
+	padding-bottom: 20px;
 }
 
 h2.total-price-label {
@@ -300,7 +301,7 @@ div.buyable {
 
 div.buyable a.buyable_update_cart.buy_now_item {
 	padding: 2px 12px !important;
-    line-height: 34px !important;
+    line-height: 37px !important;
 }
 
 div.buyable .change {
@@ -410,6 +411,65 @@ body.template-content_view #content .documentFirstHeading {
 
 a.advanced-search {
 	display: none;
+}
+
+body.template-cart h1.documentFirstHeading,
+body.template-checkout h1.documentFirstHeading {
+	margin-bottom: 0px !important;
+	padding-bottom: 200px !important;
+}
+
+select.cart_item_count {
+	-moz-appearance: none !important;
+    text-indent: 0.01px !important;
+    text-overflow: '' !important;
+    overflow:hidden;
+}
+
+.template-cart #cart .cart_item_count {
+	text-align: left;
+}
+
+#cart .cart-select-box::after 
+{
+	pointer-events:none;
+}
+
+.cart_item_count option {
+	background-color: #f5f5f5 !important;
+}
+
+body {
+	font-smoothing: antialiased;
+}
+
+div.buyable .cart-select-box {
+    position: relative;
+    display: inline-block;
+}
+
+div.buyable .cart_item_count {
+    text-align: left;
+}
+
+div.buyable .cart_item_count {
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.cart_item_count 
+{
+	cursor: pointer;
+}
+
+body.portaltype-product #portal-logo img:after {
+    content: url("++resource++plonetheme.museumbase.css/teylers_black.png") !important;
+}
+
+div.buyable select 
+{
+	vertical-align: middle !important;
 }
 
 /*#cart-page-header:before {
