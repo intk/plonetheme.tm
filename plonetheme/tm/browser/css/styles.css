@@ -587,6 +587,14 @@ body.template-edit #content-view-portlets {
 #viewlet-below-content #content-core {
 	padding-bottom: 0px !important;
 }
+
+#content-view-portlets a.managePortletsFallback {
+    width: 25%;
+    color: #D75745 !important;
+    font-size: 0.875em !important;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 400;
+}
 /*#cart-page-header:before {
     content: '';
     position: absolute;
