@@ -580,6 +580,13 @@ div.buyable select {
 	display: none !important;
 }
 
+body.template-edit #content-view-portlets {
+	display: none !important;
+}
+
+#viewlet-below-content #content-core {
+	padding-bottom: 0px !important;
+}
 /*#cart-page-header:before {
     content: '';
     position: absolute;
