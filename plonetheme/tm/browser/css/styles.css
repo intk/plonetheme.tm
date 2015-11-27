@@ -604,6 +604,22 @@ div.buyable {
 	cursor: text;
 }
 
+dl.details {
+	cursor: auto;
+}
+
+dd.price {
+	cursor: text;
+}
+
+dd.price h2 {
+	cursor: text;
+}
+
+dt.vat {
+	cursor: text;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
