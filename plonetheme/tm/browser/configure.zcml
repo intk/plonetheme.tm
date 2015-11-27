@@ -34,7 +34,7 @@
       name="plonetheme.tm.portlets"
       for="*"
       class=".viewlets.views.PortletsViewlet"
-      manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+      manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
       template="viewlets/templates/portlets.pt"
       permission="zope2.View"
     />
