@@ -600,9 +600,7 @@ body.template-folder_contents #content-view-portlets {
     font-weight: 400;
 }
 
-div.buyable {
-	cursor: text;
-}
+
 
 dl.details {
 	cursor: auto;
@@ -618,6 +616,10 @@ dd.price h2 {
 
 dt.vat {
 	cursor: text;
+}
+
+div.buyable {
+	cursor: auto !important;
 }
 
 /*#cart-page-header:before {
