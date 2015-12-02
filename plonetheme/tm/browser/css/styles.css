@@ -622,6 +622,22 @@ div.buyable {
 	cursor: auto !important;
 }
 
+body.template-edit.portaltype-object {
+	background-color: #ffffff !important;
+}
+
+body.template-edit.portaltype-object input {
+	width: 100%;
+}
+
+body.template-edit.portaltype-object fieldset {
+	padding-top: 30px;
+}
+
+body.template-edit.portaltype-object #form {
+	padding-bottom: 50px;
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
