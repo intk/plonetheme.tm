@@ -55,7 +55,7 @@ body.template-cart #portal-logo img, body.template-checkout #portal-logo img {
 }
 
 body.template-mollie_payment_success #portal-logo img {
-    content: url('++resource++plonetheme.museumbase.css/teylers_black.png') !important;
+    
 }
 
 div.shipping_costs_table td {
@@ -599,8 +599,6 @@ body.template-folder_contents #content-view-portlets {
     font-family: 'Merriweather', serif !important;
     font-weight: 400;
 }
-
-
 
 dl.details {
 	cursor: auto;
