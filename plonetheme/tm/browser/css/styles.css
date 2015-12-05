@@ -359,7 +359,7 @@ div.overlay-terms-and-condition div.pb-ajax {
 	background-color: #ffffff !important;
 }
 
-body.template-collection_view #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-content_view #content .documentFirstHeading {
+body.template-etickets_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-content_view #content .documentFirstHeading {
     background: transparent;
     /* position: absolute; */
     /* top: 260px; */
