@@ -672,6 +672,13 @@ body.template-edit.portaltype-object #form {
     	padding-left: 45px !important;
     }
 }
+
+@media (max-width: 991px) and (min-width: 768px) {
+	body.template-content_view #content .documentDescription.description, body.template-content_view #content .documentDescription {
+	    padding-left: 60px !important;
+	}
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
