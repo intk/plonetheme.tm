@@ -666,6 +666,12 @@ body.template-edit.portaltype-object #form {
 	}
 }
 
+
+@media (max-width: 991px) and (min-width: 768px) {
+	#parent-fieldname-description, .documentDescription {
+    	padding-left: 45px !important;
+    }
+}
 /*#cart-page-header:before {
     content: '';
     position: absolute;
