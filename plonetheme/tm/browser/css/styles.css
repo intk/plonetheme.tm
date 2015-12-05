@@ -636,6 +636,30 @@ body.template-edit.portaltype-object #form {
 	padding-bottom: 50px;
 }
 
+@media (max-width: 480px) {
+	body.template-collection_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading {
+    	padding-top: 100px !important;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+	body.template-collection_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading {
+    	padding-top: 100px !important;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	body.template-collection_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading {
+    	padding-top: 160px !important;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	body.template-collection_view #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-content_view #content .documentFirstHeading {
+		padding-top: 198px !important;
+	}
+}
+
 /*#cart-page-header:before {
     content: '';
     position: absolute;
