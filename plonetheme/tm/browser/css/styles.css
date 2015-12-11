@@ -636,6 +636,22 @@ body.template-edit.portaltype-object #form {
 	padding-bottom: 50px;
 }
 
+#formfield-form-widgets-priref {
+	display: none !important;
+}
+
+#parent-fieldname-text iframe {
+	max-width: 100%;
+}
+
+body[class^="template-content"] #content-core #parent-fieldname-text-dates > * {
+    font-family: 'Merriweather', serif !important;
+    font-weight: 700 !important;
+    font-size: 1.875em;
+    line-height: 40px;
+    color: #D75745 !important;
+}
+
 @media (max-width: 480px) {
 	body.template-collection_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading {
     	padding-top: 100px !important;
