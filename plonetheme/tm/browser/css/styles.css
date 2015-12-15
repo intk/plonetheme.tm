@@ -644,6 +644,11 @@ body.template-edit.portaltype-object #form {
 	max-width: 100%;
 }
 
+
+body.no-img-slideshow.template-view.portaltype-object.subsection-boeken-new-32f-20-journal-of-a-voyage-to-the-south-seas-in-his-majestys-ship-the-endeavour-faithfully-transcribed-from-the-papers-of-the-late-sydney-parkinson-draughtsman-to-sir-joseph-banks-in-his-expedition-with-dr-solander-round-the-world #edit-content-views {
+    padding-top: 600px !important;
+}
+
 body[class^="template-content"] #content-core #parent-fieldname-text-dates > * {
     font-family: 'Merriweather', serif !important;
     font-weight: 700 !important;
