@@ -644,6 +644,15 @@ body.template-edit.portaltype-object #form {
 	max-width: 100%;
 }
 
+.portaltype-object #content .slick-active h1.documentFirstHeading.no-image {
+	display: block !important;
+	color: #ffffff !important;
+}
+
+.portaltype-object #content .slick-active div.documentDescription.no-image {
+	display: block !important;
+	color: #ffffff !important;
+}
 
 body.no-img-slideshow.template-view.portaltype-object.subsection-boeken-new-32f-20-journal-of-a-voyage-to-the-south-seas-in-his-majestys-ship-the-endeavour-faithfully-transcribed-from-the-papers-of-the-late-sydney-parkinson-draughtsman-to-sir-joseph-banks-in-his-expedition-with-dr-solander-round-the-world #edit-content-views {
     padding-top: 600px !important;
@@ -656,6 +665,33 @@ body[class^="template-content"] #content-core #parent-fieldname-text-dates > * {
     line-height: 40px;
     color: #D75745 !important;
 }
+
+body.template-instruments_view.no-img-slideshow #edit-content-views {
+    padding-top: 400px !important;
+}
+
+body.template-double_view.no-img-slideshow #edit-content-views {
+    padding-top: 600px !important;
+}
+
+body.template-instruments_view.no-img-slideshow #portal-header {
+    background-color: #ffffff !important;
+}
+
+body.template-double_view.no-img-slideshow #portal-header {
+    background-color: #ffffff !important;
+}
+
+@media (min-width: 1200px) {
+	#content-core div[id*='parent-fieldname-text'] > *, #content-core dd.portletItem ul, #content-core dd.portletItem span, #content-core dd.portletItem h2, #content-core dd.portletItem h3 {
+	    width: 850px !important;
+	    margin: 0 auto;
+	    margin-right: auto !important;
+	    margin-left: auto !important;
+	}
+}
+
+
 
 @media (max-width: 480px) {
 	body.template-collection_view #content .documentFirstHeading, body.portaltype-portlet-page #content .documentFirstHeading, body.template-etickets_view #content .documentFirstHeading {
