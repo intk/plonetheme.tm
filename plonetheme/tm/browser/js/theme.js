@@ -67,6 +67,7 @@ $(document).ready(function() {
         var ccore = $("#content-core");
         ccore.enableTableCollectionReload("#stock-column", { "sort_on": "product_stock"});
         ccore.enableTableCollectionReload("#title-column", { "sort_on": "sortable_title"});
+        ccore.enableTableCollectionReload("#price-column", { "sort_on": "product_price"});
         ccore.enableTableCollectionReload("#articleNumber-column", { "sort_on": "product_articleNumber"});
     }
 });
